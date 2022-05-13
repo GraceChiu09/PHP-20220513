@@ -10,7 +10,7 @@
     <h1 style="font: size 3rem;text-align:center">
     <?php
 
-    $bmi=$_GET['bmi'];
+    $bmi= $_POST['bmi'];
     echo "你的BMI值為".$bmi;
     
     
@@ -50,7 +50,7 @@
         echo "中度肥胖";
     }else if($bmi > 35){
         echo "重度肥胖";
-    }
+    };
     
 
 ?>
