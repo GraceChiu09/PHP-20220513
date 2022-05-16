@@ -11,15 +11,15 @@
     <li>回首頁</li>
     <li>產品目錄</li>
     <?php
-    if(){
+    if(empty){$_COOKIE['login']
 
     
    
-    ?>
+    
      <li><a href="./login.php">登入</a></li>
      <li><a href="./logout.php">登出</a></li>
-     <?php
-     }else{
+     
+     }else{$_COOKIE['logout'];
 
 
      }
